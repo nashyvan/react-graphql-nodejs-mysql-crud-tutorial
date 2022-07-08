@@ -7,7 +7,7 @@ const CreateUser = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
-    const [createUser, {error}] = useMutation(CREATE_USER);
+    const [createUser] = useMutation(CREATE_USER);
 
     return (
         <div className="createUser">
